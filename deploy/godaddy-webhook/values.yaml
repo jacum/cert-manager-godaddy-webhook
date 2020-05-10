@@ -13,7 +13,7 @@ certManager:
   serviceAccountName: cert-manager
 
 image:
-  repository: inspectorioinc/cert-manager-webhook-godaddy
+  repository: quay.io/neogeneva/cert-manager-webhook-godaddy
   tag: latest
   pullPolicy: IfNotPresent
 
